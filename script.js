@@ -36,17 +36,3 @@ function remove (item) {
   }
  
 }
-
-/* Step 11 below here */
-function doAbout() {
-var divabout = document.getElementById("divabout");
-  divabout.innerHTML ="Author is ANUJ PATEL";
-  divabout.classList.add("yellowbackground");
-  
-}
-
-/* Step 14 below here */
-function clearAbout() {
-  var divabout = document.getElementById("divabout");
-  divabout.innerHTML =" ";
-}
